@@ -1,0 +1,25 @@
+kind: Ingress
+metadata:
+  name: ingress-notes-app
+spec:
+  rules:
+  - host: "domain.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/test"
+        backend:
+          service:
+            name: notes-app-service
+            port:
+              number: 8000
+  - host: "*.domain.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/test"
+        backend:
+          service:
+            name: notes-app-service
+            port:
+              number: 8000
