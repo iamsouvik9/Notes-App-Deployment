@@ -180,6 +180,36 @@ Install docker-compose so that when we trigger the pipeline to re-deploy the app
 
 
 
+## 17. Create a Kubernetes Service to deploy the application
+
+
+I. Create a deployment of the application Deployment.yml
+
+
+
+<img width="960" alt="23" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/d4eaacff-b83c-497e-a40e-adc527819556">
+
+
+
+II. Create a Kubernetes service(nodeport type)
+
+
+<img width="960" alt="25" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/acde3052-6320-4ef5-a417-ffd8a6277c1b">
+
+
+III. Create an ingress-reosurce
+
+After the ingress reosurce is being created it can be accesses by anyone and everyone on the internet.
+
+
+<img width="960" alt="26" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/e716c7b9-b6ee-4766-be2d-51db7490a4cc">
+
+
+
+<img width="960" alt="22" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/a9c19423-b6bb-4b2b-8fe5-88072caf17e9">
+
+
+
 ## Note : I received an failed Job error in the 1st build
 
 
