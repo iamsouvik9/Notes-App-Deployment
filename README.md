@@ -17,6 +17,9 @@ This is a simple notes app built with React and Django.
 <img width="953" alt="overview" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/da35ad58-eb0e-4028-9193-683cf24007e9">
 
 
+Here we have a very simple Django Notes app. I have created a Dockerfile out of which docker will build an image when the Jenkins pipleine will be triggered. After the image is built successfully then the image is pushed in the DockerHub to store the image for future references. After that the Job pipeline will be triggered to create a fresh conatiner from the created image, and the application will be exposed on port 8000(Could be changed according to the user perferences). After the deployment is successful we acc access the application on the browser <Public-IP-of-EC2-instance>:8000/
+
+The detail steps are described herewith:
 
 
 ## 1. Create a EC2 instance on AWS. 
