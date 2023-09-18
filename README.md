@@ -14,7 +14,7 @@ This is a simple notes app built with React and Django.
 
 
 
-<img width="1055" alt="overview" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/48e4acf1-ab7b-40d4-87c7-5e0161b3f110">
+<img width="1055" alt="overview" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/cae6dab0-9868-4d45-88a7-dcbc58b890a0">
 
 
 
