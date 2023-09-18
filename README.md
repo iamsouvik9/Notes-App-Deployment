@@ -7,6 +7,18 @@ This is a simple notes app built with React and Django.
 3. React
 
 
+
+# Project Architecture/ Overview
+
+
+
+
+
+<img width="953" alt="overview" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/da35ad58-eb0e-4028-9193-683cf24007e9">
+
+
+
+
 ## 1. Create a EC2 instance on AWS. 
 
 
