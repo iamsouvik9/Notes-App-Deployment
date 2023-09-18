@@ -7,3 +7,5 @@ This is a simple notes app built with React and Django.
 3. React
 
 
+1. Create a EC2 instance on AWS. 
+
