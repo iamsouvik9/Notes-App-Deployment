@@ -154,7 +154,10 @@ Install docker-compose so that when we trigger the pipeline to re-deploy the app
 
 
 
-<img width="960" alt="16" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/c22a82d6-4733-4abe-ae95-1c2f3b965619">
+
+
+<img width="960" alt="12" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/07d0c0f5-7e98-4287-9b67-344de6c84333">
+
 
 
 
