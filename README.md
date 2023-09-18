@@ -14,10 +14,13 @@ This is a simple notes app built with React and Django.
 
 
 
-<img width="953" alt="overview" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/da35ad58-eb0e-4028-9193-683cf24007e9">
+<img width="1055" alt="overview" src="https://github.com/iamsouvik9/Notes-App-Deployment/assets/79768737/48e4acf1-ab7b-40d4-87c7-5e0161b3f110">
+
 
 
 Here we have a very simple Django Notes app. I have created a Dockerfile out of which docker will build an image when the Jenkins pipleine will be triggered. After the image is built successfully then the image is pushed in the DockerHub to store the image for future references. After that the Job pipeline will be triggered to create a fresh conatiner from the created image, and the application will be exposed on port 8000(Could be changed according to the user perferences). After the deployment is successful we acc access the application on the browser <Public-IP-of-EC2-instance>:8000/
+
+Another method of deplying the application is using Kubernetes services. Where we create a deployment by using the image from the DockerHub and then create a Service on the top of the deplopyment and declare an ingress resource on top it. This makes the application fault tolerant and provides load balancing capabilty to the application. And , the application can be used by anyone on the internet.
 
 The detail steps are described herewith:
 
