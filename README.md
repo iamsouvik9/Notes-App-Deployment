@@ -18,9 +18,9 @@ This is a simple notes app built with React and Django.
 
 
 
-Here we have a very simple Django Notes app. I have created a Dockerfile out of which docker will build an image when the Jenkins pipleine will be triggered. After the image is built successfully then the image is pushed in the DockerHub to store the image for future references. After that the Job pipeline will be triggered to create a fresh conatiner from the created image, and the application will be exposed on port 8000(Could be changed according to the user perferences). After the deployment is successful we acc access the application on the browser <Public-IP-of-EC2-instance>:8000/
+Here I have a very simple Django Notes app. I have created a Dockerfile out of which docker will build an image when the Jenkins pipeline will be triggered. After the image is built successfully then the image is pushed in the DockerHub to store the image for future references. After that the Job pipeline will be triggered to create a fresh container from the created image, and the application will be exposed on port 8000(Could be changed according to the user perference ). After the deployment is successful we access the application on the browser :8000/(as configured)
 
-Another method of deplying the application is using Kubernetes services. Where we create a deployment by using the image from the DockerHub and then create a Service on the top of the deplopyment and declare an ingress resource on top it. This makes the application fault tolerant and provides load balancing capabilty to the application. And , the application can be used by anyone on the internet.
+Another method of depolying the application is using Kubernetes services. Where we create a deployment by using the image from the DockerHub and then create a Service on the top of the deployment and declare an ingress resource on top it. This makes the application fault tolerant and provides load balancing capability to the application, so even if the amount of traffic increases the application will create fresh pods so that no user request is terminated.
 
 The detail steps are described herewith:
 
