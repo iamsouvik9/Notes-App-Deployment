@@ -232,7 +232,7 @@ After the ingress reosurce is being created it can be accesses by anyone and eve
 
 
 I got an error in the 1st build and it was because I forgot to add ubuntu user to the docker group so I received this "permission denied error"
-I solved it by running "sudo usermod -aG docker $USER" and then after that "newgrp docker" in the CLI
+I solved it by running "sudo usermod -aG docker jenkins" and then restart the EC2 instance to make the changes take place.
 
 
 
