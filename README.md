@@ -91,7 +91,7 @@ Install docker-compose so that when we trigger the pipeline to re-deploy the app
 
 
 
-## 7. Provide the initial admin passwor dto login the Jenkins server
+## 7. Provide the initial admin password to login the Jenkins server
 
 
 
