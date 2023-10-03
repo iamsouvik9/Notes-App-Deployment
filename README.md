@@ -80,7 +80,7 @@ The detail steps are described herewith:
 
 ## 6. Install docker-compose 
 
-Install docker-compose so that when we trigger the pipeline to re-deploy the application on port 8000, docker-compose will first bring the already deployed service down and after that it will re-deploy the application on the same port. So, in this way the Jenkins will never find the port 8080 busy amd the pipeline will not fail.
+Install docker-compose so that when we trigger the pipeline to re-deploy the application on port 8000, docker-compose will first bring the already deployed service down and after that it will re-deploy the application on the same port. So, in this way the Jenkins will never find the port 8000 busy amd the pipeline will not fail.
 
 
 
